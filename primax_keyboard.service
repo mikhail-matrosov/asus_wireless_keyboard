@@ -1,12 +1,12 @@
 [Unit]
-Description=HP Wireless Keyboard Hacked Driver
+Description=Asus Primax Wireless Keyboard Hacked Driver
 After=network.target
 
 [Service]
 Type=simple
 User=root
 WorkingDirectory=/
-ExecStart=/bin/bash /usr/local/bin/hp_keyboard.sh
+ExecStart=/bin/bash /usr/local/bin/primax_keyboard.sh
 Restart=on-abort
 
 [Install]

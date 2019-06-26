@@ -2,7 +2,7 @@
 
 gcc -o kbdusb kbdusb.c &&\
 sudo cp kbdusb /usr/local/bin/. &&\
-sudo cp hp_keyboard.sh /usr/local/bin/. &&\
-sudo cp hp_keyboard.service /etc/systemd/system/. &&\
-sudo systemctl enable hp_keyboard.service &&\
-sudo systemctl start hp_keyboard.service
+sudo cp primax_keyboard.sh /usr/local/bin/. &&\
+sudo cp primax_keyboard.service /etc/systemd/system/. &&\
+sudo systemctl enable primax_keyboard.service &&\
+sudo systemctl start primax_keyboard.service
